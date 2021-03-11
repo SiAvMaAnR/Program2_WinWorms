@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <ArrayOfShip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Ship xsi:type="Steamer">
-    <Name>jsafkhkdh</Name>
-    <Weight>65467</Weight>
-    <MaxSpeed>464</MaxSpeed>
-    <MassOfCoal>5765</MassOfCoal>
-    <RangeOfTravel>76576</RangeOfTravel>
+    <Name>jsdabfj</Name>
+    <Weight>67576</Weight>
+    <MaxSpeed>65467</MaxSpeed>
+    <MassOfCoal>67576</MassOfCoal>
+    <RangeOfTravel>6757</RangeOfTravel>
   </Ship>
 </ArrayOfShip>

@@ -18,7 +18,7 @@ namespace Program2
     {
         private List<Ship> ships = new List<Ship>();
 
-        private string path = @"D:\source\repos\Program2\XML\data.xml";
+        private string path = @"D:\source\repos\Program2_WinWorms\Program2\XML\data.xml";
 
         public Form1()
         {
@@ -156,6 +156,7 @@ namespace Program2
             {
                 await Task.Run(() =>
                 {
+                    if (!File.Exists(path)) throw new Exception("Пустой xml");                  
                     XmlSerializer formatter = new XmlSerializer(typeof(List<Ship>));
                     using (FileStream fs = new FileStream(path, FileMode.OpenOrCreate))
                     {
